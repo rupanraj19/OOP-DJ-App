@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="b63W2r" name="otodecks" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              defines="JUCE_MODAL_LOOPS_PERMITTED=1">
+  <MAINGROUP id="ZeKxMm" name="otodecks">
+    <GROUP id="{EE87617D-67CB-6344-81E4-74F016647F6D}" name="Assets">
+      <FILE id="DCoI7r" name="disc.png" compile="0" resource="1" file="Assets/disc.png"/>
+      <FILE id="Q8NSiy" name="knob.png" compile="0" resource="1" file="Assets/knob.png"/>
+      <FILE id="GDqiPV" name="loop.png" compile="0" resource="1" file="Assets/loop.png"/>
+      <FILE id="d2Fc8J" name="next.png" compile="0" resource="1" file="Assets/next.png"/>
+      <FILE id="nHdBcJ" name="pause.png" compile="0" resource="1" file="Assets/pause.png"/>
+      <FILE id="Ac8R4F" name="play.png" compile="0" resource="1" file="Assets/play.png"/>
+      <FILE id="MOWe14" name="previous.png" compile="0" resource="1" file="Assets/previous.png"/>
+      <FILE id="XPmLAc" name="stop.png" compile="0" resource="1" file="Assets/stop.png"/>
+    </GROUP>
+    <GROUP id="{8A708D0B-02B4-C415-8B7A-798B3717003E}" name="Source">
+      <FILE id="UMM75U" name="CustomLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/CustomLookAndFeel.cpp"/>
+      <FILE id="PeXQNj" name="CustomLookAndFeel.h" compile="0" resource="0"
+            file="Source/CustomLookAndFeel.h"/>
+      <FILE id="e8p8NC" name="PlaylistComponent.cpp" compile="1" resource="0"
+            file="Source/PlaylistComponent.cpp"/>
+      <FILE id="Z2asYC" name="PlaylistComponent.h" compile="0" resource="0"
+            file="Source/PlaylistComponent.h"/>
+      <FILE id="zCGIxp" name="WaveformDisplay.cpp" compile="1" resource="0"
+            file="Source/WaveformDisplay.cpp"/>
+      <FILE id="RpPAMT" name="WaveformDisplay.h" compile="0" resource="0"
+            file="Source/WaveformDisplay.h"/>
+      <FILE id="OAD5Xq" name="DeckGui.cpp" compile="1" resource="0" file="Source/DeckGui.cpp"/>
+      <FILE id="UZBep5" name="DeckGui.h" compile="0" resource="0" file="Source/DeckGui.h"/>
+      <FILE id="mLt1dg" name="DJAudioPlayer.cpp" compile="1" resource="0"
+            file="Source/DJAudioPlayer.cpp"/>
+      <FILE id="tUYAbN" name="DJAudioPlayer.h" compile="0" resource="0" file="Source/DJAudioPlayer.h"/>
+      <FILE id="IlABgU" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="FOXBTg" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="DYIZdy" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="audio program"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="audio program"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:\Program Files\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:\Program Files\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:\Program Files\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:\Program Files\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:\Program Files\JUCE\modules"/>
+        <MODULEPATH id="juce_core" path="C:\Program Files\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:\Program Files\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="C:\Program Files\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="C:\Program Files\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:\Program Files\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:\Program Files\JUCE\modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
